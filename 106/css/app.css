@@ -1,0 +1,33 @@
+h6{
+    color:#333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pendingList{
+    margin:20px 50px 0 50px;
+}
+
+.todo-item{
+    background-color: antiquewhite;
+    margin-bottom: 8px;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+    padding: 5px 15px 0 15px;
+}
+
+.todo-item h6{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    font-weight: normal;
+}
+
+.todo-item:hover{
+    border-left-width:5px ;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0px antiquewhite0;
+}
+
+.todo-item:hover h6{
+    color: skyblue;
+}
