@@ -1,0 +1,17 @@
+
+main{
+    display: flex;
+}
+
+#list{
+flex:2;
+
+}
+
+#details{
+flex:1;
+}
+
+.icon-important{
+    font-size: 32px;
+}
